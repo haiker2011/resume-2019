@@ -13,7 +13,7 @@ chinese: $(foreach x, coverletter cv resume, $x.pdf)
 # resume-cn.pdf: $(CHINESE_DIR)/resume.tex $(RESUME_SRCS)
 # 	$(CC) -output-directory=$(CHINESE_OUT_DIR) $<
 
-resume-cn.pdf: $(shell ./scripts/build.sh)
+resume-cn.pdf: $(shell ./scripts/build.sh) $<
 
 cv.pdf: $(CHINESE_DIR)/cv.tex $(CV_SRCS)
 	$(CC) -output-directory=$(CHINESE_OUT_DIR) $<
