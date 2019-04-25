@@ -1,10 +1,10 @@
 .PHONY: resume
 
 CC = xelatex
-CHINESE_DIR = chinese
-CHINESE_OUT_DIR = docs
-RESUME_DIR = chinese/resume
-CV_DIR = chinese/cv
+CHINESE_DIR = ./chinese
+CHINESE_OUT_DIR = ./docs
+RESUME_DIR = ./chinese/resume
+CV_DIR = ./chinese/cv
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
