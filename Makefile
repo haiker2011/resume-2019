@@ -10,12 +10,8 @@ CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
 chinese: $(foreach x, coverletter cv resume, $x.pdf)
 
-# resume-cn.pdf: $(CHINESE_DIR)/resume.tex $(RESUME_SRCS)
-# 	$(CC) -output-directory=$(CHINESE_OUT_DIR) $<
-VARIABLE=scripts/build.sh
-SECONDVAR:=$(shell $(VARIABLE))
-
-resume-cn.pdf: $(SECONDVAR) 
+resume-cn.pdf: $(CHINESE_DIR)/resume.tex $(RESUME_SRCS)
+	$(CC) -output-directory=$(CHINESE_OUT_DIR) $<
 
 cv.pdf: $(CHINESE_DIR)/cv.tex $(CV_SRCS)
 	$(CC) -output-directory=$(CHINESE_OUT_DIR) $<
