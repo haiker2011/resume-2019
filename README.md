@@ -1,6 +1,6 @@
 # Resume
 
-My resume is built based on [Awesome-CV](https://github.com/posquit0/Awesome-CV).
+My resume is built based on [resume](https://github.com/gaocegege/resume) and [Awesome-CV](https://github.com/posquit0/Awesome-CV).
 
 ## Chinese Version
 
@@ -12,6 +12,4 @@ My resume is built based on [Awesome-CV](https://github.com/posquit0/Awesome-CV)
 
 ## Old Versions
 
-* [gaocegege/resume-2018](https://github.com/gaocegege/resume-2018), which is built based on [Deedy-Resume-for-Chinese](https://github.com/dyweb/Deedy-Resume-for-Chinese)
-* [gaocegege/resume-2017](https://github.com/gaocegege/resume-2017), which is built based on [hackmyresume](https://github.com/hacksalot/HackMyResume)
-* [gaocegege/resume-2015](https://github.com/gaocegege/resume-2015), which is built based on [nuterian/resume](https://github.com/nuterian/resume)
+* [haiker2011/resume](https://github.com/haiker2011/resume), which is built based on [Deedy-Resume-for-Chinese](https://github.com/dyweb/Deedy-Resume-for-Chinese)
