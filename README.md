@@ -4,11 +4,11 @@ My resume is built based on [resume](https://github.com/gaocegege/resume) and [A
 
 ## Chinese Version
 
-[PDF](http://gaocegege.com/resume/resume-cn.pdf)
+[PDF](https://haiker2011.github.io/resume-2019/resume-cn.pdf)
 
 ## English Version
 
-[PDF](http://gaocegege.com/resume/resume.pdf)
+[PDF]()
 
 ## Old Versions
 
